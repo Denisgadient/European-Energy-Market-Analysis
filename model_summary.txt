@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              pwr_de_da   R-squared:                       0.770
+Model:                            OLS   Adj. R-squared:                  0.769
+Method:                 Least Squares   F-statistic:                     1449.
+Date:                Thu, 09 Apr 2026   Prob (F-statistic):          1.11e-272
+Time:                        11:34:55   Log-Likelihood:                -3111.9
+No. Observations:                 841   AIC:                             6230.
+Df Residuals:                     838   BIC:                             6244.
+Df Model:                           2                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         21.6172      1.640     13.180      0.000      18.403      24.832
+gas_ttf        2.0599      0.039     53.216      0.000       1.984       2.136
+co2_eua        0.2236      0.585      0.382      0.703      -0.924       1.371
+==============================================================================
+Omnibus:                        3.721   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.156   Jarque-Bera (JB):                3.558
+Skew:                           0.144   Prob(JB):                        0.169
+Kurtosis:                       3.136   Cond. No.                         199.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)

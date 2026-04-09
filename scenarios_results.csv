@@ -1,0 +1,5 @@
+Szenario,Gas-Preis,CO2-Preis,Proj. Strompreis
+Status Quo,30,70,97.2
+Gas-Schock (+50%),45,70,128.1
+CO2-Rally (+20%),30,84,100.28
+Stress-Szenario (Heiß/Teuer),50,90,142.8
